@@ -6,8 +6,6 @@ import Steps from './Steps/steps';
 import Value from './Value/value';
 import Register from './Register/register';
 
-import './App.css';
-
 class Neolabs extends Component {
   render() {
     return (

@@ -1,0 +1,93 @@
+.courses {
+	display: flex;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.courses_titile {
+	width: 10%;
+}
+
+.courses_cards {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+}
+
+.courses_card {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 65px;
+	padding-top: 65px;
+	text-align: left;
+	width: 20%;
+}
+
+#basics {
+	background: linear-gradient(180deg, rgba(2, 171, 243, 0.7) 0%, rgba(24, 90, 157, 0.24) 100%);
+	border-radius: 25px;
+}
+
+#oop {
+	background: linear-gradient(180deg, rgba(255, 0, 92, 0.819) 0%, rgba(168, 207, 228, 0.666) 100%);
+	border-radius: 25px;
+}
+
+#android {
+	background: linear-gradient(180deg, rgba(19, 209, 16, 0.792) 0%, rgba(51, 24, 157, 0.224) 100%);
+	border-radius: 25px;
+}
+
+.courses_card_title {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+
+.courses_card_title > img {
+	align-self: center;
+	margin: 0 auto;
+	width: 69px;
+	height: 69px;
+}
+
+.courses_card_title > p {
+	font-family: Roboto;
+	font-weight: bold;
+	margin-bottom: 0 10;
+	line-height: 45px;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+.courses_card_duration {
+	margin: 0;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 55px;
+	color: #FFFFFF;
+}
+
+.courses_card_text {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 19px;
+	color: #FFFFFF;
+}
+
+.courses_title_div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+}
+
+.courses_title {
+	font-family: Roboto;
+	font-weight: bold;
+	line-height: 90px;
+	font-size: 96px;
+	color: #000000;
+	transform: rotate(-90deg);
+	margin: 0;
+}

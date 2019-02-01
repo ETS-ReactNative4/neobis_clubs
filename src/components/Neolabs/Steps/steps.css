@@ -1,0 +1,51 @@
+.steps {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.title {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 64px;
+	color: #353535;
+}
+
+.steps_sections {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 5%;
+	padding-left: 5%;
+	height: 800px;
+	text-align: left;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.steps_right, .steps_left {
+	width: 35%;
+}
+
+.step_div {
+	margin-bottom: 150px;
+}
+
+.step_div_bottom {
+	margin: 0 auto;
+	width: 45%;
+}
+
+.step_number {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 48px;
+	color: #72E7D1;
+	padding-left: 15px;
+}
+
+.step_text {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 26px;
+	color: #5F5F5F;
+}

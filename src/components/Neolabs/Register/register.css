@@ -1,0 +1,68 @@
+.register {
+	display: flex;
+	background: #6544E8;
+	padding: 5%;
+	justify-content: space-between;
+}
+
+.register_form, .register_description {
+	width: 40%;
+}
+
+.register_description_div {
+	display: flex;
+}
+
+.register_description_div > img {
+	width: 60px;
+	height: 60px;
+}
+
+.register_description_title {
+	padding-left: 20px;
+	font-family: Roboto;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+
+.register_description_title > h2 {
+	margin-top: 10px;
+	font-size: 34px;
+}
+
+.register_description_title > p {
+	font-size: 18px;
+}
+
+.register_form {
+	padding: 5%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.register_form > input {
+	margin-bottom: 20px;
+	height: 45px;
+	width: 80%;
+	border: 3px solid #6544E8;
+	border-radius: 8px;
+}
+
+.register_form > h2 {
+	font-family: Roboto;
+	font-size: 38px;
+	color: #000000;
+}
+
+.register_form > input::placeholder {
+	padding-left: 5%;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	color: #929292;
+}

@@ -1,0 +1,44 @@
+.description {
+	display: flex;
+	margin: 150px 0;
+}
+
+.description_left {
+	width: 50%;
+}
+
+.description_right {
+	width: 50%;
+}
+
+.description_img {
+	height: 85%;
+	width: 60%;
+}
+
+.description_right {
+	text-align: left;
+	padding-right: 5%;
+}
+
+.description_title {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 48px;
+	color: #212121;
+	margin-bottom: 80px;
+}
+
+.description_subtitle {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #000000;
+}
+
+.description_text {
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 24px;
+	color: #000000;
+}

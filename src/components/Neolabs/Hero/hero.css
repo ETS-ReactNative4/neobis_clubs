@@ -61,3 +61,62 @@
 	font-size: 22px;
 	color: #FFFFFF;
 }
+
+@media screen and (max-width: 500px) {
+.hero {
+	height: 250px;
+}
+
+.hero_left {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding-left: 5%;
+}
+
+  .main_text {
+	font-size: 45px;
+	line-height: 45px;
+ }
+
+ .hero_right {
+ 	width: 60%;
+ 
+ }
+
+ .hero_right > img {
+	width: 100%;
+	height: auto;
+ }
+
+ .button {
+ 	width: 90px;
+ 	height: 30px;
+ }
+
+.button_container {
+	display: flex;
+	height: 30px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background: #1BE9C4;
+	border-radius: 50px;
+}
+
+.button_container > img {
+	height: 14px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.button_text {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+
+}

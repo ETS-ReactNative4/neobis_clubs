@@ -5,11 +5,12 @@ import Courses from './Courses/courses';
 import Steps from './Steps/steps';
 import Value from './Value/value';
 import Register from './Register/register';
+import './Neolabs.css';
 
 class Neolabs extends Component {
   render() {
     return (
-      <div>
+      <div className="Neolabs">
         <Hero/>
         <Description/>
         <Courses/>

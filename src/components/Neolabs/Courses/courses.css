@@ -73,6 +73,7 @@
 	font-weight: 300;
 	font-size: 19px;
 	color: #FFFFFF;
+	hyphens: manual;
 }
 
 .courses_title_div {
@@ -90,4 +91,63 @@
 	color: #000000;
 	transform: rotate(-90deg);
 	margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.courses_title {
+		font-size: 40px;
+		line-height: 10px;
+	}
+
+	.courses_cards {
+		margin-left: 35px;
+	}
+
+	.courses_card {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+	width: 21%;
+	margin: 0 2px;
+	hyphens: manual;
+	}
+
+	.courses_card_title > img {
+		align-self: center;
+		margin: 0 auto;
+		width: 35px;
+		height: 35px;
+		margin-left: 3px;
+	}
+
+	.courses_card_title > p {
+		font-family: Roboto;
+		font-weight: bold;
+		margin-bottom: 0 10;
+		line-height: 23px;
+		font-size: 19px;
+		margin-left: -22px;
+		color: #FFFFFF;
+	}
+
+	.courses_card_duration {
+		margin: 0;
+		font-family: Roboto;
+		font-weight: bold;
+		font-size: 18px;
+		margin-left: -22px;
+		color: #FFFFFF;
+	}
+
+	.courses_card_text {
+		width: 120px;
+		font-family: Roboto;
+		font-weight: 100;
+		font-size: 13px;
+		margin-left: -22px;
+		color: #FFFFFF;
+	}
 }

@@ -12,7 +12,7 @@
 }
 
 .description_img {
-	height: 85%;
+	height: auto;
 	width: 60%;
 }
 
@@ -41,4 +41,34 @@
 	font-weight: normal;
 	font-size: 24px;
 	color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .description {
+  	margin-top: 50px;
+  	margin-bottom: 50px;
+  }
+
+  .description_title {
+  	font-size: 30px;
+  	margin-top: 0;
+  	margin-bottom: 25px;
+  }
+
+  .description_img {
+	height: auto;
+	width: 90%;
+  }
+
+  .description_subtitle {
+	margin: 0;
+	font-size: 20px;
+  }
+
+  .description_text
+  {
+  	font-size: 15px;
+  }
+
 }

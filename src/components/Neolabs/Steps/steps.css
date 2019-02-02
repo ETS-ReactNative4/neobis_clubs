@@ -13,6 +13,7 @@
 .steps_sections {
 	display: flex;
 	justify-content: space-between;
+	background-image: url("./android_phone.svg");
 	align-items: center;
 	padding-right: 5%;
 	padding-left: 5%;
@@ -48,4 +49,39 @@
 	font-weight: bold;
 	font-size: 26px;
 	color: #5F5F5F;
+}
+
+@media screen and (max-width: 600px) 
+{
+	.steps {
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
+
+	.title {
+		margin: 0;
+		font-size: 36px;
+	}
+
+	.step_div {
+		margin-top: 100px;
+	}
+
+	.steps_sections {
+		height: 400px;
+		background-image: none !important;;
+	}
+
+	.steps_right, .steps_left {
+		width: 35%;
+	}
+	
+	.step_number {
+		font-size: 15px;
+	}
+
+	.step_text {
+		font-size: 12px;
+	}
+
 }

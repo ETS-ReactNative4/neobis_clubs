@@ -7,7 +7,7 @@ class Steps extends Component {
     return (
       <div className='steps'>
       	<h2 className='title'>Как проходит обучение?</h2>
-   		  <div className='steps_sections' style={{backgroundImage: "url(" + android + ")"}}>
+   		  <div className='steps_sections'>
 	      	<div className='steps_left'>
             <div className='step_div'>
               <h2 className='step_number'>Шаг 1.</h2>

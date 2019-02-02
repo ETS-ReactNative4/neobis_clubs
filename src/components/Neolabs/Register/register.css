@@ -66,3 +66,43 @@
 	font-size: 18px;
 	color: #929292;
 }
+
+@media screen and (max-width: 600px)
+{
+	.register_form
+	{
+		width: 42%;
+		height: 250px;
+	}
+
+	.register_form > h2 {
+		font-size: 22px;
+	}
+
+	.register_form > input {
+		height: 20px;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 14px;
+	}
+
+	.register_description {
+		width: 43%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.register_description_title > h2{
+		font-size: 14px;
+		margin: 0
+	}
+
+	.register_description_title > p {
+		font-size: 12px;
+	}
+}

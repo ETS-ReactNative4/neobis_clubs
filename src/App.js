@@ -10,7 +10,7 @@ class App extends Component {
       <Switch>
         <Route path='/' exact component={MainPage}/>
         <Route path='/registration' exact component={NewMembersRegistrationPage}/>
-        <Route path='/Neolabs' exact component={Neolabs}/>
+        <Route path='/neolabs' exact component={Neolabs}/>
       </Switch>
     );
   }

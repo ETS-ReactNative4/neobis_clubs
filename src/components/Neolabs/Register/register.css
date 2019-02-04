@@ -67,6 +67,84 @@
 	color: #929292;
 }
 
+@media screen and (max-width: 1064px)
+{
+	.register_form
+	{
+		width: 42%;
+		height: 250px;
+	}
+
+	.register_form > h2 {
+		font-size: 22px;
+	}
+
+	.register_form > input {
+		height: 30px;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 18px;
+	}
+
+	.register_description {
+		width: 43%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.register_description_title > h2{
+		font-size: 26px;
+		margin: 0
+	}
+
+}
+
+@media screen and (max-width: 768px)
+{
+	.register_form
+	{
+		width: 42%;
+		height: 250px;
+	}
+
+	.register_form > h2 {
+		font-size: 22px;
+	}
+
+	.register_form > input {
+		height: 25px;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 16px;
+	}
+
+	.register_description {
+		width: 43%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.register_description_title > h2{
+		font-size: 19px;
+		margin: 0
+	}
+
+	.register_description_title > p {
+		font-size: 16px;
+	}
+}
+
+
 @media screen and (max-width: 600px)
 {
 	.register_form
@@ -104,5 +182,128 @@
 
 	.register_description_title > p {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 414px)
+{
+	.register_form
+	{
+		width: 40%;
+		height: 180px;
+	}
+
+	.register_form > h2 {
+		font-size: 18px;
+	}
+
+	.register_form > input {
+		height: 20px;
+		width: 70%;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 13px;
+	}
+
+	.register_description {
+		width: 45%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 15px;
+		height: 15px;
+	}
+
+	.register_description_title > h2{
+		font-size: 14px;
+		margin: 0
+	}
+
+	.register_description_title > p {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 375px)
+{
+	.register_form
+	{
+		width: 40%;
+		height: 180px;
+	}
+
+	.register_form > h2 {
+		font-size: 18px;
+	}
+
+	.register_form > input {
+		height: 20px;
+		width: 70%;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 13px;
+	}
+
+	.register_description {
+		width: 45%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 15px;
+		height: 15px;
+	}
+
+	.register_description_title > h2{
+		font-size: 12px;
+		margin: 0
+	}
+
+	.register_description_title > p {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 359px)
+{
+	.register_form
+	{
+		width: 40%;
+		height: 180px;
+	}
+
+	.register_form > h2 {
+		font-size: 18px;
+	}
+
+	.register_form > input {
+		height: 20px;
+		width: 70%;
+	}
+
+	.register_form > input::placeholder {
+		font-size: 13px;
+	}
+
+	.register_description {
+		width: 45%;
+		margin-top: 20px;
+	}
+
+	.register_description_div > img {
+		width: 15px;
+		height: 15px;
+	}
+
+	.register_description_title > h2{
+		font-size: 12px;
+		margin: 0
+	}
+
+	.register_description_title > p {
+		font-size: 10px;
 	}
 }

@@ -38,7 +38,7 @@ class MainPage extends Component {
                         Че там, регаться будешь?
                     </SectionText>
                     <SectionText textWidth={"550px"}>
-                        <NavLink to={"/Neolabs"} className="yesButton">
+                        <NavLink to={"/neolabs"} className="yesButton">
                             <button>
                                 ДА!
                             </button>

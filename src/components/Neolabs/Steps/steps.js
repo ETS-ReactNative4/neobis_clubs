@@ -19,11 +19,11 @@ class Steps extends Component {
             </div>
 	      	</div>
 	      	<div className='steps_right'>
-            <div className='step_div'>
-              <h2 className='step_number'>Шаг 2.</h2>
+            <div className='step_div step_right'>
+              <h2 className='step_number '>Шаг 2.</h2>
               <p className='step_text'>Видеоуроки и живые трансляции</p>    
             </div>
-            <div className='step_div'>
+            <div className='step_div step_right'>
               <h2 className='step_number'>Шаг 4.</h2>
               <p className='step_text'>Проверка знаний при переходе на следующий уровень обучения</p>    
             </div>

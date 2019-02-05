@@ -19,7 +19,7 @@ import NeobisInNumbers from "../../components/NeobisInNumbers/NeobisInNumbers";
 
 import ContactsSection from "../../components/ContactsSection/ContactsSection";
 import SocialFooter from "../../components/SocialFooter/SocialFooter";
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class MainPage extends Component {
 

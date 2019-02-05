@@ -19,7 +19,7 @@ import NeobisInNumbers from "../../components/NeobisInNumbers/NeobisInNumbers";
 
 import ContactsSection from "../../components/ContactsSection/ContactsSection";
 import SocialFooter from "../../components/SocialFooter/SocialFooter";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 class MainPage extends Component {
 
@@ -39,11 +39,11 @@ class MainPage extends Component {
                         Че там, регаться будешь?
                     </SectionText>
                     <SectionText textWidth={"550px"}>
-                        <NavLink to={"/neolabs"} className="yesButton">
+                        <Link to="/neolabs" className="yesButton">
                             <button>
                                 ДА!
                             </button>
-                        </NavLink>
+                        </Link>
                     </SectionText>
 
                     <AboutUsIntro/>

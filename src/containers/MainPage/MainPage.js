@@ -10,6 +10,7 @@ import OurSection from "../../components/AboutUs/OurSection/OurSection";
 import WeTeachSection from "../../components/WeTeachSection/WeTeachSection";
 import Technologies from "../../components/Technologies/Technologies";
 import DownArrow from "../../components/UI/DownArrow/DownArrow";
+import Neolabs from "../../components/Neolabs/Neolabs";
 
 import './test.css';
 import SectionTitle from "../../components/UI/SectionTitle/SectionTitle";

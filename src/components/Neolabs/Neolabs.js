@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {withRouter} from 'react-router-dom';
 import Hero from './Hero/hero';
 import Description from './Description/description';
 import Courses from './Courses/courses';
@@ -22,4 +23,4 @@ class Neolabs extends Component {
   }
 }
 
-export default Neolabs;
+export default withRouter(Neolabs);

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import {fetchSiteInfo} from "../../store/actions/siteInfo";
 
@@ -40,11 +40,11 @@ class MainPage extends Component {
                         Че там, регаться будешь?
                     </SectionText>
                     <SectionText textWidth={"550px"}>
-                        <Link to="/registration" className="yesButton">
+                        <NavLink to="/neolabs" className="yesButton">
                             <button>
                                 ДА!
                             </button>
-                        </Link>
+                        </NavLink>
                     </SectionText>
 
                     <AboutUsIntro/>

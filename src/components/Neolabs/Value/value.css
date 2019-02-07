@@ -72,178 +72,239 @@
 @media screen and (max-width: 1064px) {
 
 	.value_title {
-		font-size: 60px;
-		line-height: 66px;
+		font-size: 55px;
+		line-height: 58px;
 	}
 
-	.value_icon {
-		width: 45px;
-		height: 45px;
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.value_div {
+		height: auto;
 	}
 
 	.value_text {
-		font-size: 16px;
-		line-height: 20px;
-		overflow-wrap: break-word;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 37px 15px;
 	}
 }
 
 
 @media screen and (max-width: 768px) {
 
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.value_title {
 		font-size: 50px;
-		line-height: 53px;
+		line-height: 50px;
+	}
+
+	.value_div {
+		width: 47%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
+		width: 45px;
+		height: 45px;
 	}
 	
 	.value_text {
-		font-size: 10px;
-		line-height: 14px;
-		overflow-wrap: break-word;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 37px 15px;
 	}
 }
 
 @media screen and (max-width: 600px) {
+
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.value_title {
-		font-size: 42px;
-		line-height: 46px;
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.value_div {
+		width: 47%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 40px;
-		height: 40px;
+		width: 45px;
+		height: 45px;
 	}
 	
 	.value_text {
-		font-size: 9px;
-		line-height: 12px;
-		overflow-wrap: break-word;
+		font-size: 17px;
+		line-height: 18px;
+		margin: 37px 15px;
 	}
 }
 
 @media screen and (max-width: 414px) {
 
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.value_title {
-		font-size: 41px;
+		font-size: 40px;
 		line-height: 44px;
 	}
 
-	.value_divs {
-		margin-top: 40px;
-	}
-
 	.value_div {
-		height: 115px;
+		width: 47%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 30px;
-		height: 30px;
-		margin-top: 7px;
+		width: 45px;
+		height: 45px;
 	}
 	
 	.value_text {
-		font-size: 9.6px;
-		line-height: 12px;
-		overflow-wrap: break-word;
+		font-size: 16px;
+		line-height: 18px;
+		margin: 38px 15px;
 	}
 
 }
 
 @media screen and (max-width: 412px) {
 
-	.value_title {
-		font-size: 41px;
-		line-height: 37px;
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.value_divs {
-		margin-top: 40px;
+	.value_title {
+		font-size: 38px;
+		line-height: 40px;
 	}
 
 	.value_div {
-		height: 115px;
+		width: 47%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 30px;
-		height: 30px;
-		margin-top: 10px;
+		width: 42px;
+		height: 42px;
 	}
 	
 	.value_text {
-		font-size: 9.5px;
-		line-height: 12px;
-		overflow-wrap: break-word;
+		font-size: 17px;
+		line-height: 18px;
+		margin: 37px 15px;
 	}
 
 }
 
 @media screen and (max-width: 375px) {
 
-	.value_title {
-		font-size: 38px;
-		line-height: 37px;
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.value_divs {
-		margin-top: 40px;
+	.value_title {
+		font-size: 38px;
+		line-height: 40px;
 	}
 
 	.value_div {
-		height: 115px;
+		width: 46%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 30px;
-		height: 30px;
-		margin-top: 5px;
+		width: 40px;
+		height: 40px;
 	}
 	
 	.value_text {
-		font-size: 8px;
-		line-height: 12px;
-		overflow-wrap: break-word;
+		font-size: 15.5px;
+		line-height: 18px;
+		margin: 35px 15px;
 	}
 
 }
 
 @media screen and (max-width: 360px) {
 
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.value_title {
-		font-size: 36px;
+		font-size: 29px;
 		line-height: 37px;
+	}
+
+	.value_div {
+		width: 46%;
+		height: auto;
+	}
+
+	.value_icon {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.value_text {
+		font-size: 15px;
+		line-height: 18px;
+		margin: 35px 13px;
 	}
 
 }
 
 @media screen and (max-width: 359px) {
+	
+	.value_divs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
 	.value_title {
 		font-size: 31px;
-		line-height: 37px;
+		line-height: 34px;
 	}
 
 	.value_div {
-		height: 115px;
+		width: 45%;
+		height: auto;
 	}
 
 	.value_icon {
-		width: 30px;
-		height: 30px;
-		margin-top: 5px;
+		width: 35px;
+		height: 35px;
 	}
 	
 	.value_text {
-		font-size: 8px;
-		line-height: 12px;
-		overflow-wrap: break-word;
+		font-size: 13px;
+		line-height: 17px;
+		margin: 27px 12px;
 	}
 
 }

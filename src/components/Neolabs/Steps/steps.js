@@ -14,13 +14,13 @@ class Steps extends Component {
               <p className='step_text'>План обучения составленный NeoLabs, авторская программа</p>    
             </div>
             <div className='step_div'>
-              <h2 className='step_number'>Шаг 3.</h2>
+              <h2 className='step_number'>Шаг 2.</h2>
               <p className='step_text'>Выполнение заданий, решение задач по темам и теориям, 80% практики</p>    
             </div>
 	      	</div>
 	      	<div className='steps_right'>
             <div className='step_div step_right'>
-              <h2 className='step_number '>Шаг 2.</h2>
+              <h2 className='step_number '>Шаг 3.</h2>
               <p className='step_text'>Видеоуроки и живые трансляции</p>    
             </div>
             <div className='step_div step_right'>

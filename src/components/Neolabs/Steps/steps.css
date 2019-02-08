@@ -355,7 +355,7 @@
 	}
 
 	.steps_right, .steps_left {
-		width: 35%;
+		width: 60%;
 		margin-left: 0;
 		height: auto;
 	}
@@ -370,7 +370,7 @@
 	}
 
 	.step_div_bottom {
-		width: 32%;
+		width: 55%;
 	}
 	
 
@@ -379,7 +379,7 @@
 	}
 
 	.step_text {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 }
@@ -406,7 +406,7 @@
 	}
 
 	.steps_right, .steps_left {
-		width: 35%;
+		width: 60%;
 		margin-left: 0;
 		height: auto;
 	}
@@ -421,7 +421,7 @@
 	}
 
 	.step_div_bottom {
-		width: 32%;
+		width: 55%;
 	}
 	
 
@@ -430,7 +430,7 @@
 	}
 
 	.step_text {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 }
@@ -458,7 +458,7 @@
 	}
 
 	.steps_right, .steps_left {
-		width: 35%;
+		width: 45%;
 		margin-left: 0;
 		height: auto;
 	}
@@ -473,16 +473,17 @@
 	}
 
 	.step_div_bottom {
-		width: 32%;
+		width: 40%;
 	}
 	
 
 	.step_number {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.step_text {
-		font-size: 14px;
+		font-size: 12px;
+		line-height: 17px;
 	}
 
 }

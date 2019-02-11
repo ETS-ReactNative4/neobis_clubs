@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import {withRouter} from 'react-router-dom';
-import Hero from './Hero/hero';
-import Description from './Description/description';
-import Courses from './Courses/courses';
-import Steps from './Steps/steps';
-import Value from './Value/value';
-import Register from './Register/register';
-import './Neolabs.css';
+import './style.css';
+import './preloader.css';
+import $ from 'jquery';
+import Header from './Header/Header';
+import About from './About/About';
+import Team from './Team/Team';
+import WhatSays from './Whatsays/WhatSays';
+import Footer from './Footer/Footer';
 
-class Neolabs extends Component {
-  render() {
-    return (
-      <div className="Neolabs">
-        <Hero/>
-        <Description/>
-        <Courses/>
-        <Steps/>
-        <Value/>
-        <Register/>
-      </div>
-    );
-  }
-}
-
-export default withRouter(Neolabs);
+class Neolabs extends React.Component {
+	render() {
+		return (
+			<div id="got">
+			<Header />
+			<About />
+			<Team />
+			<WhatSays />
+			<Footer />
+			</div>
+			);
+		}
+	}
+	export default Neolabs;

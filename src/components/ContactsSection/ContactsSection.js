@@ -1,7 +1,6 @@
 import React from 'react';
 import './ContactsSection.css';
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 const ContactsSection = props => {
@@ -9,17 +8,12 @@ const ContactsSection = props => {
     return (
         <div id={'contacts'}>
 
-
-            <ScrollAnimation animateIn='bounceInUp'
-                             animateOut='bounceOutDown'>
                 <div className="ContactsSection" id={'contacts'}>
                     <div className="ContactsData">
                         <SectionTitle title={'Контакты'}/>
                         <div className="ContactItem">
                             <i className="fas fa-map-marker-alt"/>
-                            <p>American University of Central Asia
-                                7/6 Aaly Tokombaev Street Bishkek,
-                                Kyrgyz Republic 720060</p>
+                            <p>ул. Байтик Баатыра 70, офис 401</p>
                         </div>
                         <div className="ContactItem">
                             <i className="fas fa-envelope"/>
@@ -34,7 +28,7 @@ const ContactsSection = props => {
                         </div>
                     </div>
                 </div>
-            </ScrollAnimation>
+
         </div>
     );
 }

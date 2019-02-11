@@ -11,7 +11,6 @@ import OurSection from "../../components/AboutUs/OurSection/OurSection";
 import WeTeachSection from "../../components/WeTeachSection/WeTeachSection";
 import Technologies from "../../components/Technologies/Technologies";
 import DownArrow from "../../components/UI/DownArrow/DownArrow";
-import Neolabs from "../../components/Neolabs/Neolabs";
 
 import './test.css';
 import SectionTitle from "../../components/UI/SectionTitle/SectionTitle";
@@ -35,10 +34,10 @@ class MainPage extends Component {
                 <Ellipses/>
                 {/*<NavBar/>*/}
                 <Grider>
-                    <SectionTitle title={"Регистрация на онлайн-курсы!"}/>
-                    <SectionText textWidth={"550px"}>
+                    <SectionTitle title={"Курсы программирования!"}/>
+{/*                    <SectionText textWidth={"550px"}>
                         Че там, регаться будешь?
-                    </SectionText>
+                    </SectionText>*/}
                     <SectionText textWidth={"550px"}>
                         <NavLink to="/neolabs" className="yesButton">
                             <button>

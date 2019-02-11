@@ -39,7 +39,7 @@ const NeobisInNumbers = props => {
                 {/*temporary hard code data*/}
                 <div className='two-col'>
                     <NumberItem
-                        number={38}
+                        number={65}
                         text='Человек в команде'
                     />
 
@@ -50,13 +50,13 @@ const NeobisInNumbers = props => {
                 </div>
                 <div className='two-col'>
                     <NumberItem
-                        number={87}
+                        number={255}
                         text='Студентов обучено'
                     />
 
 
                     <NumberItem
-                        number={15}
+                        number={26}
                         text='Реализованных проектов'
                     />
                 </div>

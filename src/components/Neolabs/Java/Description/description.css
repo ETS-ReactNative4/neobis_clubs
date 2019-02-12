@@ -5,7 +5,7 @@
 
 .description_left {
 	width: 50%;
-	margin-right: -9%;
+	margin-right: -11%;
 }
 
 .description_right {
@@ -23,6 +23,7 @@
 	font-family: Roboto;
 	font-weight: bold;
 	font-size: 48px;
+	line-height: 53px;
 	color: #212121;
 	margin-bottom: 80px;
 }
@@ -49,7 +50,7 @@
 	}
 
 	.description_right {
-		padding-left: 5%;
+		padding-left: 70px;
 		padding-right: 0;
 	}
 
@@ -268,7 +269,7 @@
 	}
 }
 
-@media only screen and (max-width: 421px) {
+@media only screen and (max-width: 426px) {
 
 	.description {
 		margin-top: 0;

@@ -8,7 +8,7 @@ class Courses extends Component {
   render() {
     return (
       <div className='courses'>
-      	<div className='courses_title_div'><p className='courses_title'>Courses</p></div>
+      	<div className='courses_title_div'><p className='courses_title'>Курсы</p></div>
       	<div className='courses_cards'>
       		<div className='courses_card' id='basics'>
       			<div className='courses_card_title'>

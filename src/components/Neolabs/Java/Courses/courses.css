@@ -254,11 +254,8 @@
 	}
 
 	.courses_card {
-		padding-right: 35px;
-		padding-left: 35px;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 27%;
+		padding: 6%;
+		width: 40%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}
@@ -323,11 +320,8 @@
 	}
 
 	.courses_card {
-		padding-right: 35px;
-		padding-left: 35px;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 40%;
+		padding: 5%;
+		width: 41%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}
@@ -390,11 +384,8 @@
 		align-items: center;
 	}
 	.courses_card {
-		padding-right: 14%;
-		padding-left: 14%;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 52%;
+		padding: 6.5%;
+		width: 47%;
 		margin: 15px 0px;
 		hyphens: manual;
 	}
@@ -457,11 +448,8 @@
 		align-items: center;
 	}
 	.courses_card {
-		padding-right: 14%;
-		padding-left: 14%;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 57%;
+		padding: 9.5%;
+		width: 55%;
 		margin: 15px 0px;
 		hyphens: manual;
 	}
@@ -504,14 +492,14 @@
 @media only screen and (max-width: 414px) {
 
 .courses {
-		margin-top: 30px;
+		margin-top: 40px;
 		flex-direction: column;
 		align-items: center;
 		
 	}
 
 	.courses_title {
-		font-size: 28px;
+		font-size: 38px;
 		line-height: 10px;
 		transform: rotate(0deg);
 	}
@@ -524,11 +512,8 @@
 		align-items: center;
 	}
 	.courses_card {
-		padding-right: 65px;
-		padding-left: 50px;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 59%;
+		padding: 40px;
+		width: 65%;
 		margin: 15px 0px;
 		hyphens: manual;
 	}
@@ -591,11 +576,8 @@
 		align-items: center;
 	}
 	.courses_card {
-		padding-right: 65px;
-		padding-left: 50px;
-		padding-bottom: 35px;
-		padding-top: 35px;
-		width: 59%;
+		padding: 10.7%;
+		width: 62.5%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}
@@ -639,7 +621,7 @@
 @media only screen and (max-width: 385px) {
 
 	.courses {
-		margin-top: 30px;
+		margin-top: 40px;
 		flex-direction: column;
 		align-items: center;
 		
@@ -659,11 +641,8 @@
 		align-items: center;
 	}
 	.courses_card {
-		padding-right: 50px;
-		padding-left: 50px;
-		padding-bottom: 40px;
-		padding-top: 40px;
-		width: 65%;
+		padding: 7.5%;
+		width: 60%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}
@@ -696,7 +675,7 @@
 		width: 145px;
 		font-family: Roboto;
 		font-weight: 500;
-		font-size: 11.9px;
+		font-size: 12px;
 		margin-top: 10px;
 		hyphens: auto;	
 		color: #FFFFFF;
@@ -727,11 +706,8 @@
 	}
 
 	.courses_card {
-		padding-right: 47px;
-		padding-left: 47px;
-		padding-bottom: 25px;
-		padding-top: 25px;
-		width: 65%;
+		padding: 40px;
+		width: 70%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}
@@ -739,7 +715,6 @@
 
 	.courses_card_title > img {
 		align-self: center;
-		margin: 0 auto;
 		width: 40px;
 		height: 40px;
 	}
@@ -747,7 +722,7 @@
 	.courses_card_title > p {
 		font-family: Roboto;
 		font-weight: bold;
-		margin-bottom: 0 10;
+		margin-bottom: 0 10px;
 		line-height: 27px;
 		font-size: 24px;
 		color: #FFFFFF;
@@ -796,8 +771,8 @@
 	}
 
 	.courses_card {
-		padding: 35px 15%;
-		width: 60%;
+		padding: 6.25%;
+		width: 54%;
 		margin: 11px 0px;
 		hyphens: manual;
 	}

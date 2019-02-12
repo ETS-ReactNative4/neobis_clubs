@@ -13,7 +13,7 @@ class App extends React.Component {
 		return (
 			<Switch>
 			<Route path="/"  exact component={MainPage}/>
-			<Route path="/java" exact component={Java}/>
+			<Route path="/neolabs/java" exact component={Java}/>
 			<Route path="/neolabs" exact component={Neolabs}/>
 			</Switch>
 			);

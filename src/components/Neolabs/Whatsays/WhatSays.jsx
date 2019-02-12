@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../style.css';
 
 import sanira from '../assets/images/Sanira.jpg';
 import begimai from '../assets/images/Begimai.jpg';

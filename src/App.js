@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainPage from "./containers/MainPage/MainPage";
 import 'bootstrap/dist/css/bootstrap.css';
+
 import {Switch} from "react-router-dom";
 import {Route} from 'react-router-dom';
 import NewMembersRegistrationPage from "./components/NewMembersRegistrationPage/NewMembersRegistrationPage";

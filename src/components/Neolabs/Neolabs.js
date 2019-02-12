@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './style.css';
 import './preloader.css';
-import $ from 'jquery';
+
+
 import Header from './Header/Header';
 import About from './About/About';
 import Team from './Team/Team';
@@ -11,7 +12,7 @@ import Footer from './Footer/Footer';
 class Neolabs extends React.Component {
 	render() {
 		return (
-			<div id="got">
+			<div>
 			<Header />
 			<About />
 			<Team />

@@ -15,7 +15,7 @@ class Courses extends Component {
       				<p>Java <br/>Basics</p>
       				<img src={java}/>
       			</div>
-      			<h3 className='courses_card_duration'>1 месяц</h3>
+      			<h3 className='courses_card_duration'>1 <br/>месяц</h3>
       			<p className='courses_card_text'>
       				Базовые и необходимые знания для 
 вашего дальнейшнего погружения в увлекательный мир программирования JAVA

@@ -9,9 +9,9 @@ class Team extends React.Component {
       <div>
       <section id="call-to-action">
       <img src={bg} alt="img"/>
-      <div class="call-to-overlay">
-      <div class="container">
-      <div class="call-to-content wow fadeInUp">
+      <div className="call-to-overlay">
+      <div className="container">
+      <div className="call-to-content wow fadeInUp">
       <h2>
       Запрограммируй своё будущее!
       <br/>
@@ -22,49 +22,49 @@ class Team extends React.Component {
       </div> 
       </section>
       <section id="team">
-      <div class="container">
-      <div class="row">
-      <div class="col-md-12">
-      <div class="team-area">
-      <div class="title-area">
-      <h2 class="tittle">Наша команда</h2>
-      <span class="tittle-line"></span>
+      <div className="container">
+      <div className="row">
+      <div className="col-md-12">
+      <div className="team-area">
+      <div className="title-area">
+      <h2 className="tittle">Наша команда</h2>
+      <span className="tittle-line"></span>
       <p>
       Наши преподаватели - самые амбициозные и креативные ребята, готовые с удовольствием делятся своими знаниями.
       У каждого Вы найдете индивидуальный подход к обучению программирования, где 80% курсов - необходимая практика.
       </p>
       </div>
-      <div class="team-content">
-      <ul class="team-grid">
+      <div className="team-content">
+      <ul className="team-grid">
       <li>
-      <div class="team-item team-img-1 wow fadeInUp">
-      <div class="team-info">
+      <div className="team-item team-img-1 wow fadeInUp">
+      <div className="team-info">
       <p> Привет, я являюсь Backend разработчиком в команде Необис. Я люблю программировать и обучать людей</p>
       </div>
       </div>
-      <div class="team-address">
+      <div className="team-address">
       <p>Филип Шевченко</p>
       <span>Back-end, Pythone Developer</span>
       </div>
       </li>
       <li>
-      <div class="team-item team-img-2 wow fadeInUp">
-      <div class="team-info">
+      <div className="team-item team-img-2 wow fadeInUp">
+      <div className="team-info">
       <p> Я верю, что каждый может программировать, нужна лишь мотивация и дисциплина</p>
       </div>
       </div>
-      <div class="team-address">
+      <div className="team-address">
       <p>Давран Хасанов</p>
       <span>Android, Java Разработчик</span>                  
       </div>
       </li>
       <li>
-      <div class="team-item team-img-3 wow fadeInUp">
-      <div class="team-info">
+      <div className="team-item team-img-3 wow fadeInUp">
+      <div className="team-info">
       <p> Если практиковаться каждый день, то через 3 месяца вы уже сможете разработать Андроид приложение</p>
       </div>
       </div>
-      <div class="team-address">
+      <div className="team-address">
       <p>Алиер Акрамов</p>
       <span>Android, Java Разработчик</span>
       </div>

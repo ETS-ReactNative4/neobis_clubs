@@ -6,15 +6,15 @@ class Footer extends React.Component {
   render() {
     return (
       <footer id="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="footer-top-area">                         
-            <div class="footer-social">
-              <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
-              <a class="twitter" href="#"><span class="fa fa-instagram"></span></a>
-              <address class="single-address">
+  <div className="footer-top">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="footer-top-area">                         
+            <div className="footer-social">
+              <a className="facebook" href="#"><span className="fa fa-facebook"></span></a>
+              <a className="twitter" href="#"><span className="fa fa-instagram"></span></a>
+              <address className="single-address">
                 <h4>NeoLabs</h4>
                 <p>Почта: neobiskg@gmail.com</p>
               </address>

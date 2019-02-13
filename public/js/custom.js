@@ -1,3 +1,4 @@
+
 /**	
 	* Template Name: Rex
 	* Version: 1.0	
@@ -33,7 +34,7 @@ jQuery(function($){
 	jQuery('.header-slide').slick({
 		dots: false,
 		infinite: true,
-		speed: 500,
+		speed: 500,              
 		arrows:false, 
 		autoplay: true,     
       	slidesToShow: 1,
@@ -139,7 +140,7 @@ jQuery(function($){
 	//Check to see if the window is top if not then display button
 
 	  jQuery(window).scroll(function(){
-	    if ($(this).scrollTop() > 300) {
+	    if ($(this).scrollTop() > 700) {
 	      $('.scrollToTop').fadeIn();
 	    } else {
 	      $('.scrollToTop').fadeOut();

@@ -10,7 +10,14 @@ import WhatSays from './Whatsays/WhatSays';
 import Footer from './Footer/Footer';
 
 class Neolabs extends React.Component {
+
+	componentDidMount() {
+		window.scrollTo(0, 0);
+		
+	}
+
 	render() {
+
 		return (
 			<div>
 			<Header />
